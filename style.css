@@ -1,0 +1,40 @@
+:root{
+    --golden_color : #FED136;
+    --black_color : #222222;
+    --artikle_text : #777777;
+    --logo_font : Bilbo Swash Caps;
+    --base_font : Montserrat ;
+    --artickle_font: Roboto Slab;
+
+}
+
+header{
+    display: flex;
+    margin: 0 auto;
+    width: 933px;
+    padding: 55px;
+    height: 39px;
+    
+}
+.logo{
+    display: flex;
+    font-family: var(--logo_font);
+    color: var(--golden_color);
+    font-weight: normal;
+    margin-right: 300px;
+    align-self: center;
+    
+}
+nav{
+    align-self: center;
+    
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: var(--golden_color);
+    font-family: var(--base_font);
+    
+    
+}
