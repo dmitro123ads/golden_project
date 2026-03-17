@@ -33,8 +33,40 @@ nav ul{
     display: flex;
     gap: 20px;
     list-style: none;
-    color: var(--golden_color);
+    
     font-family: var(--base_font);
     
-    
+}
+nav a{
+    text-decoration: none;
+    color: var(--golden_color);
+}
+.hero{
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+.title{
+    display: flex;
+    margin: 82px;
+    font-family: var(--base_font);
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.services{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+.services_art{
+    width: 274px;
+    height: 185px;
+}
+.article_text{
+    color: var(--artikle_text);
+    font-size: 14px;
+    font-family: var(--artickle_font);
 }
