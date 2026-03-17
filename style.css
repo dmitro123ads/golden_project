@@ -2,6 +2,7 @@
     --golden_color : #FED136;
     --black_color : #222222;
     --artikle_text : #777777;
+    --white_color : #ffffff;
     --logo_font : Bilbo Swash Caps;
     --base_font : Montserrat ;
     --artickle_font: Roboto Slab;
@@ -45,6 +46,7 @@ nav a{
     align-items: center;
     text-align: center;
     gap: 25px;
+    margin-bottom: 130px;
 }
 .title{
     display: flex;
@@ -69,4 +71,20 @@ nav a{
     color: var(--artikle_text);
     font-size: 14px;
     font-family: var(--artickle_font);
+}
+
+footer{
+    height: 679px;
+    padding: 95px;
+    background-color: var(--black_color);
+    margin: 0 auto;
+}
+
+.form_title{
+    display: flex;
+    color: var(--white_color);
+    font-family: var(--base_font);
+    align-self: center;
+    align-items: center;
+    justify-content: center;
 }
