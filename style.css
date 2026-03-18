@@ -75,7 +75,7 @@ nav a{
 
 footer{
     height: 679px;
-    padding: 95px;
+    padding-top: 95px;
     background-color: var(--black_color);
     margin: 0 auto;
 }
@@ -87,4 +87,46 @@ footer{
     align-self: center;
     align-items: center;
     justify-content: center;
+}
+form{
+    justify-content: center;
+    text-align: center;
+}
+.writing{
+    display: flex;
+    gap: 27px;
+    align-items: center;
+    justify-content: center;
+    width: 942px;
+    margin-left: 233px;
+    margin-top: 114px;
+    margin-bottom: 27px;
+}
+.small_form{
+    display: flex;
+    flex-direction: column;
+    width: 455px;
+    height: 214px;
+    gap: 28px;
+    
+}
+
+.small_form input{
+    height: 50px;
+}
+
+.big_form{
+    display: flex;
+    height: 212px;
+    width: 458px;
+    margin: 0 ;
+    flex-direction: row;
+    
+}
+.submit{
+    background-color: var(--golden_color);
+    color: var(--white_color);
+    width: 242px;
+    height: 60px;
+    font-family: var(--base_font);
 }
