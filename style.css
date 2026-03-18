@@ -95,10 +95,11 @@ form{
 .writing{
     display: flex;
     gap: 27px;
+    width: 942px;
+    font-family: var(--base_font);
     align-items: center;
     justify-content: center;
-    width: 942px;
-    margin-left: 233px;
+    margin: 0 auto;
     margin-top: 114px;
     margin-bottom: 27px;
 }
@@ -108,19 +109,23 @@ form{
     width: 455px;
     height: 214px;
     gap: 28px;
-    
+     
 }
 
 .small_form input{
     height: 50px;
+    font-weight: bold;
 }
 
 .big_form{
+    height: 210px;
     display: flex;
-    height: 212px;
+    padding-bottom: 182px;
     width: 458px;
     margin: 0 ;
-    flex-direction: row;
+    font-weight: bold;
+    font-family: var(--base_font);
+
     
 }
 .submit{
@@ -129,4 +134,5 @@ form{
     width: 242px;
     height: 60px;
     font-family: var(--base_font);
+    font-weight: bold;
 }
